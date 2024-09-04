@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Little Lemon</title>
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+    <meta name="description"
+        content="Discover the flavors of the Mediterranean at Little Lemon, a family-owned restaurant offering traditional recipes with a modern twist.">
+    <meta name="author" content="Little Lemon Restaurant">
+    <meta property="og:title" content="Little Lemon Home">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="logo.png">
+    <meta property="og:url" content="https://littlelemon/">
+    <meta property="og:description"
+        content="Little Lemon is a family-owned Mediterranean restaurant focused on traditional recipes served with a modern twist.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Little Lemon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div style="text-align:center; background-color:#333; padding:15px;">
+            <img src="assets/Asset 14@4x.png" alt="Little Lemon Logo" style="width:200px;">
+        </div>
+    </header>
+
+    <nav style="background-color:#4CAF50;">
+        <ul style="list-style:none; padding:0; margin:0; display:flex; justify-content:space-around;">
+            <li><a href="#Home" style="color:white; text-decoration:none; font-weight:bold;">Home</a></li>
+            <li><a href="#Menu" style="color:white; text-decoration:none; font-weight:bold;">Menu</a></li>
+            <li><a href="#Reserve" style="color:white; text-decoration:none; font-weight:bold;">Reserve</a></li>
+            <li><a href="#About" style="color:white; text-decoration:none; font-weight:bold;">About</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="Home">
+            <article
+                style="margin-bottom:40px; padding:20px; background-color:#fff; border-radius:8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+                <h1 style="font-size:2rem; color:#333;">Weekend Special: 30% Off!</h1>
+                <p style="line-height:1.6;">
+                    Enjoy an incredible 30% discount this weekend on all our Mediterranean dishes! Join us for a
+                    culinary journey through the flavors of Italy, Greece, and Turkey.
+                </p>
+            </article>
+            <div class="main_options">
+                <article
+                    style="margin-bottom:40px; padding:20px; background-color:#fff; border-radius:8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+                    <h2 style="font-size:1.8rem; color:#4CAF50;">Explore Our New Menu</h2>
+                    <img src="assets/calamari.jpg" alt="Calamari"
+                        style="width:100%; border-radius:8px; margin-top:15px;">
+                    <p style="margin-top:15px; line-height:1.6;">
+                        Our latest menu features seasonal dishes inspired by Italian, Greek, and Turkish cuisine. Each
+                        dish is crafted with fresh, locally sourced ingredients to bring you the true flavors of the
+                        Mediterranean.
+                    </p>
+                    <a href="#Menu" onclick="showSection('menu')"
+                        style="display:inline-block; margin-top:15px; color:#4CAF50; font-weight:bold; text-decoration:none;">See
+                        our new menu</a>
+                </article>
+
+                <article
+                    style="margin-bottom:40px; padding:20px; background-color:#fff; border-radius:8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+                    <h2 style="font-size:1.8rem; color:#4CAF50;">Book a Table</h2>
+                    <img src="assets/falafel.jpg" alt="Falafel" style="width:100%; border-radius:8px; margin-top:15px;">
+                    <p style="margin-top:15px; line-height:1.6;">
+                        Secure your dining experience with a reservation. Enjoy an exquisite meal in our warm and
+                        welcoming atmosphere.
+                    </p>
+                    <a href="#Reserve" onclick="showSection('reserve')"
+                        style="display:inline-block; margin-top:15px; color:#4CAF50; font-weight:bold; text-decoration:none;">Book
+                        your table now</a>
+                </article>
+
+                <article
+                    style="margin-bottom:40px; padding:20px; background-color:#fff; border-radius:8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+                    <h2 style="font-size:1.8rem; color:#4CAF50;">Opening Hours</h2>
+                    <img src="assets/salad.jpg" alt="Salad" style="width:100%; border-radius:8px; margin-top:15px;">
+                    <p style="margin-top:15px; line-height:1.6;">
+                        The Little Lemon Restaurant is open daily, ready to serve you with a smile. Visit us during the
+                        hours below for a delightful dining experience.
+                    </p>
+                    <ul style="margin-top:15px; padding-left:20px;">
+                        <li>Monday - Friday: 2pm - 10pm</li>
+                        <li>Saturday: 2pm - 11pm</li>
+                        <li>Sunday: 2pm - 9pm</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section id="Menu" style="display: 'none';">
+            <article
+                style="background-color:#fff; padding:20px; border-radius:8px; box-shadow:0 0 10px rgba(0,0,0,0.1);">
+                <h1 style="font-size:2.5rem; color:#333; text-align:center;">Our Menu</h1>
+                <hr style="margin:20px 0; border:none; border-top:2px solid #4CAF50;">
+                <h2 style="font-size:2rem; color:#4CAF50;">Special Selections</h2>
+                <p style="line-height:1.6; margin-bottom:20px;">
+                    Indulge in a curated selection of seasonal dishes inspired by the rich culinary traditions of India,
+                    Italy, Greece, and Turkey. Every dish is prepared with the freshest ingredients and a touch of
+                    modern flair.
+                </p>
+                <ul style="columns:2; -webkit-columns:2; -moz-columns:2; list-style:none; padding-left:0;">
+                    <li style="margin-bottom:10px;">Tea</li>
+                    <li style="margin-bottom:10px;">Coffee</li>
+                    <li style="margin-bottom:10px;">Samosa</li>
+                    <li style="margin-bottom:10px;">Toasts</li>
+                    <li style="margin-bottom:10px;">Grilled Cheese</li>
+                    <li style="margin-bottom:10px;">French Fries</li>
+                    <li style="margin-bottom:10px;">Mattar Paneer</li>
+                    <li style="margin-bottom:10px;">Fried Onion Rings</li>
+                    <li style="margin-bottom:10px;">Grilled Sandwich</li>
+                    <li style="margin-bottom:10px;">Beverages</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="Reserve" style="display: 'none';">
+            <article>
+                <h1>Reserve Your Table</h1>
+                <p>Experience the best Mediterranean cuisine with an Italian, Greek, and Turkish twist.</p>
+
+                <div id="msgError"></div>
+                <div id="msgSuccess"></div>
+
+                <form>
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" placeholder="Enter your full name">
+
+                    <label for="numGuests">Number of Guests:</label>
+                    <input type="number" id="numGuests" min="1" max="10" placeholder="Enter number of guests">
+
+                    <button type="button" onclick="reserveTable()">Reserve Now</button>
+                </form>
+            </article>
+        </section>
+
+        <section id="About" style="display: 'none';">
+            <article>
+                <div>
+                    <h1>About Us</h1>
+                    <p>
+                        Little Lemon is a family-owned Mediterranean restaurant, dedicated to offering traditional
+                        recipes with a contemporary twist. Our focus is on creating an unforgettable dining experience
+                        that combines rich cultural heritage with modern culinary techniques.
+                    </p>
+                    <h2>Our Heritage</h2>
+                    <p>
+                        The history of Little Lemon traces back to the Lamon plateau, an area with a rich history dating
+                        back to prehistoric times. Evidence of early human activity includes the discovery of numerous
+                        stone and flint artifacts. Notably, in 1988, a prehistoric hunter was discovered in Val Rosna,
+                        shedding light on the lives of early settlers in the region.
+                    </p>
+                    <p>
+                        More recently, fossil remains, including those of the Ursus spelaeus, a large bear once
+                        widespread across the Alpine region, were found in the San Donato cave. These fossils, now
+                        housed in the town hall, offer a glimpse into the prehistoric fauna of the area.
+                    </p>
+                    <p>
+                        In 1997, middle school students unearthed artifacts such as arrowheads, scrapers, cores, and
+                        sickle blades in the hamlet of Guana. These finds, attributed to late prehistoric farmers,
+                        highlight the long-standing agricultural practices in the region.
+                    </p>
+                </div>
+            </article>
+        </section>
+
+
+
+
+    </main>
+
+    <footer>
+        <div class="footer1">
+            <img src="assets/Asset 18@4x.png" alt="Little Lemon Footer Logo">
+        </div>
+        <div class="footer2">
+            <hr>
+            <p>Copyright &copy; 2024 Little Lemon. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        function reserveTable() {
+            var fullName = document.getElementById("fullName").value;
+            var numGuests = document.getElementById("numGuests").value;
+
+            if (fullName && numGuests) {
+                document.getElementById("msgSuccess").textContent = `Thank you, ${fullName}. Your table for ${numGuests} has been reserved!`;
+                document.getElementById("msgError").textContent = "";
+            } else {
+                document.getElementById("msgError").textContent = "Please fill out all fields.";
+                document.getElementById("msgSuccess").textContent = "";
+            }
+        }
+        document.addEventListener("DOMContentLoaded", function () {
+            // Get all navigation links
+            const navLinks = document.querySelectorAll('nav ul li a');
+
+            // Get all sections that are direct children of main
+            const sections = document.querySelectorAll('main > section[id]');
+
+            // Function to show the selected section and hide others
+            function showSection(event) {
+                event.preventDefault();
+
+                // Get the target section id from the clicked link
+                const targetId = event.target.getAttribute('href').substring(1);
+
+                // Hide all sections
+                sections.forEach(section => {
+                    section.style.display = 'none';
+                });
+
+                // Show the target section
+                const targetSection = document.getElementById(targetId);
+                if (targetSection) {
+                    targetSection.style.display = 'block';
+                }
+            }
+
+            // Add click event listeners to each navigation link
+            navLinks.forEach(link => {
+                link.addEventListener('click', showSection);
+            });
+
+            // Initially show the Home section and hide others
+            sections.forEach(section => {
+                section.style.display = 'none';
+            });
+            document.getElementById('Home').style.display = 'block';
+        });
+
+    </script>
+</body>
+
+</html>
